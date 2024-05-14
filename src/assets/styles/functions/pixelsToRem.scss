@@ -1,0 +1,6 @@
+$root-font-size: 16;
+
+@function pixelsToRem ($value) {
+    $remvalue: calc($value / $root-font-size) + rem;
+    @return $remvalue
+}
