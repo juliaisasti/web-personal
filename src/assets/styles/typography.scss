@@ -1,6 +1,45 @@
 @font-face {
     font-family: 'Attila Sans Classic Basic';
+    src: url('../../font/AttilaSansClassicBasic-Hairline.ttf') format('trueType');
+    font-weight: 100;
+}
+@font-face {
+    font-family: 'Attila Sans Classic Basic';
+    src: url('../../font/AttilaSansClassicBasic-Thin.ttf') format('trueType');
+    font-weight: 200;
+}
+@font-face {
+    font-family: 'Attila Sans Classic Basic';
+    src: url('../../font/AttilaSansClassicBasic-Light.ttf') format('trueType');
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Attila Sans Classic Basic';
     src: url('../../font/AttilaSansClassicBasic-Regular.ttf') format('trueType');
-    font-weight: normal;
-    letter-spacing: pixelsToRem(-3)
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Attila Sans Classic Basic';
+    src: url('../../font/AttilaSansClassicBasic-Medium.ttf') format('trueType');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Attila Sans Classic Basic';
+    src: url('../../font/AttilaSansClassicBasic-Semi-Bold.ttf') format('trueType');
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'Attila Sans Classic Basic';
+    src: url('../../font/AttilaSansClassicBasic-Bold.ttf') format('trueType');
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Attila Sans Classic Basic';
+    src: url('../../font/AttilaSansClassicBasic-Black.ttf') format('trueType');
+    font-weight: 800;
+}
+
+@mixin font-heading-regular {
+    font-family: 'Attila Sans Classic Basic', sans-serif;
+    font-weight: 300;
 }

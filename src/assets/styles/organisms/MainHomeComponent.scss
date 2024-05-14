@@ -1,3 +1,39 @@
-.MenuComponentList {
-    font-family: 'Attila Sans Classic Basic', sans-serif;
+h1 {
+  @include font-heading-regular;
+  font-size: pixelsToRem(32);
+}
+h3 {
+  @include font-heading-regular;
+  font-size: pixelsToRem(16);
+}
+.LoveButton {
+    @include font-heading-regular;
+    font-size: pixelsToRem(32);
+  }
+
+.MenuButton {
+  @include font-heading-regular;
+  font-size: pixelsToRem(16);
+  display: inline-flex;
+  height: 48px;
+  padding: 2px 21px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 100px;
+  background: #5acf7b;
+}
+
+.HomeDescription {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 153px;
+  flex-shrink: 0;
+}
+
+.home-title {
+  color: $white;
 }
