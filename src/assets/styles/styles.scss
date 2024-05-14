@@ -1,7 +1,17 @@
 @import './colors.scss';
+@import './typography.scss';
 @import './normalize.scss';
-@import './fonts.scss';
 @import './mixins.scss';
 
 // Utils
 @import './functions/';
+
+// Atoms
+
+// Molecules
+
+// Organisms
+@import './organisms/MainHomeComponent.scss';
+
+// Pages
+@import './pages/Home.scss';

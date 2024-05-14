@@ -15,7 +15,7 @@ const MainHomeComponent = () => {
         <button onClick={handleClick}>MENU</button>
 
         {toggle ? (
-          <nav className="MenuComponent">
+          <nav className="MenuComponentList">
             <h3>Where do you wanna go?</h3>
             <h1>
               <Link to="/">Home</Link>
