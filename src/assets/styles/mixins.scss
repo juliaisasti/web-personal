@@ -1,0 +1,3 @@
+@mixin respond-big {
+    @media (min-width: 800px) { @content }
+  }

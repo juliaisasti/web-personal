@@ -1,0 +1,42 @@
+.MenuContainer {
+  &__MenuButton {
+    @include font-heading-regular;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 1000;
+    font-size: pixelsToRem(16);
+    display: flex;
+    width: 100px;
+    height: 48px;
+    padding: 2px 21px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 100px;
+    background: $green;
+    &__Close {
+      @include font-heading-regular;
+      position: fixed;
+      top: 10px;
+      right: 10px;
+      z-index: 1000;
+      font-size: pixelsToRem(16);
+      display: flex;
+      width: 100px;
+      height: 48px;
+      padding: 2px 21px;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      border-radius: 100px;
+      background: $white;
+      color: $black;
+    }
+  }
+}
+.Menu__Opened {
+  @include font-heading-regular;
+  background-color: $green;
+
+}
